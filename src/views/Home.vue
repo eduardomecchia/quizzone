@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <Card v-for="user in users" :key="user.uuid"></Card>
-  </div>
+  <main class="home">
+    <Card v-for="user in users" :key="user.id"></Card>
+  </main>
 </template>
 
 <script>

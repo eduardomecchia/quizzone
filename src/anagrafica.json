@@ -1,7 +1,7 @@
 {
     "users": [
         {
-            "uuid": 1,
+            "id": 1,
             "name": "Mario",
             "surname": "Rossi",
             "email": "mario.rossi@gmail.com",
@@ -9,7 +9,7 @@
             "notes": ""
         },
         {
-            "uuid": 2,
+            "id": 2,
             "name": "Maria",
             "surname": "Rossi",
             "email": "maria.rossi@gmail.com",
@@ -17,7 +17,7 @@
             "notes": ""
         },
         {
-            "uuid": 3,
+            "id": 3,
             "name": "Sara",
             "surname": "Russo",
             "email": "sara.russo@gmail.com",
@@ -25,7 +25,7 @@
             "notes": ""
         },
         {
-            "uuid": 4,
+            "id": 4,
             "name": "Eduardo",
             "surname": "Mecchia",
             "email": "eduardo.mecchia@gmail.com",
@@ -33,7 +33,7 @@
             "notes": ""
         },
         {
-            "uuid": 5,
+            "id": 5,
             "name": "Gaia",
             "surname": "Cardi",
             "email": "gaia.cardi@gmail.com",
@@ -41,7 +41,7 @@
             "notes": ""
         },
         {
-            "uuid": 6,
+            "id": 6,
             "name": "Ilaria",
             "surname": "Salvo",
             "email": "ilaria.salvo@gmail.com",

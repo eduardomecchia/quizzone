@@ -1,5 +1,5 @@
 <template>
-  <div class="new">
+  <main class="new">
     <h1>Add new entry</h1>
-  </div>
+  </main>
 </template>
