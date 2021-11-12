@@ -1,0 +1,52 @@
+{
+    "utenti": [
+        {
+            "uuid": 1,
+            "nome": "Mario",
+            "cognome": "Rossi",
+            "email": "mario.rossi@gmail.com",
+            "citta": "Milano",
+            "note": ""
+        },
+        {
+            "uuid": 2,
+            "nome": "Maria",
+            "cognome": "Rossi",
+            "email": "maria.rossi@gmail.com",
+            "citta": "Roma",
+            "note": ""
+        },
+        {
+            "uuid": 3,
+            "nome": "Sara",
+            "cognome": "Russo",
+            "email": "sara.russo@gmail.com",
+            "citta": "Bergamo",
+            "note": ""
+        },
+        {
+            "uuid": 4,
+            "nome": "Eduardo",
+            "cognome": "Mecchia",
+            "email": "eduardo.mecchia@gmail.com",
+            "citta": "Palestrina",
+            "note": ""
+        },
+        {
+            "uuid": 5,
+            "nome": "Gaia",
+            "cognome": "Cardi",
+            "email": "gaia.cardi@gmail.com",
+            "citta": "Roma",
+            "note": ""
+        },
+        {
+            "uuid": 6,
+            "nome": "Ilaria",
+            "cognome": "Salvo",
+            "email": "ilaria.salvo@gmail.com",
+            "citta": "Torino",
+            "note": ""
+        }
+    ]
+}
