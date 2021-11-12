@@ -17,7 +17,7 @@ export default {
   },
 
   mounted() {
-    axios.get('http://localhost:3000/utenti')
+    axios.get('http://localhost:3000/users')
       .then(response => {
         this.$store.dispatch('loadUsers', response.data);
       })

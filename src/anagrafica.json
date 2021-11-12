@@ -1,52 +1,52 @@
 {
-    "utenti": [
+    "users": [
         {
             "uuid": 1,
-            "nome": "Mario",
-            "cognome": "Rossi",
+            "name": "Mario",
+            "surname": "Rossi",
             "email": "mario.rossi@gmail.com",
-            "citta": "Milano",
-            "note": ""
+            "city": "Milano",
+            "notes": ""
         },
         {
             "uuid": 2,
-            "nome": "Maria",
-            "cognome": "Rossi",
+            "name": "Maria",
+            "surname": "Rossi",
             "email": "maria.rossi@gmail.com",
-            "citta": "Roma",
-            "note": ""
+            "city": "Roma",
+            "notes": ""
         },
         {
             "uuid": 3,
-            "nome": "Sara",
-            "cognome": "Russo",
+            "name": "Sara",
+            "surname": "Russo",
             "email": "sara.russo@gmail.com",
-            "citta": "Bergamo",
-            "note": ""
+            "city": "Bergamo",
+            "notes": ""
         },
         {
             "uuid": 4,
-            "nome": "Eduardo",
-            "cognome": "Mecchia",
+            "name": "Eduardo",
+            "surname": "Mecchia",
             "email": "eduardo.mecchia@gmail.com",
-            "citta": "Palestrina",
-            "note": ""
+            "city": "Palestrina",
+            "notes": ""
         },
         {
             "uuid": 5,
-            "nome": "Gaia",
-            "cognome": "Cardi",
+            "name": "Gaia",
+            "surname": "Cardi",
             "email": "gaia.cardi@gmail.com",
-            "citta": "Roma",
-            "note": ""
+            "city": "Roma",
+            "notes": ""
         },
         {
             "uuid": 6,
-            "nome": "Ilaria",
-            "cognome": "Salvo",
+            "name": "Ilaria",
+            "surname": "Salvo",
             "email": "ilaria.salvo@gmail.com",
-            "citta": "Torino",
-            "note": ""
+            "city": "Torino",
+            "notes": ""
         }
     ]
 }
