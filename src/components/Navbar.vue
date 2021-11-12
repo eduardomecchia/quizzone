@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav text-white">
           <router-link to="/">Home</router-link>
-          <router-link to="/new" class="ms-3">Add new page</router-link>
+          <router-link to="/new" class="ms-lg-3">Add new page</router-link>
         </div>
       </div>
     </div>
