@@ -27,7 +27,7 @@
 
             <div class="d-flex align-items-center">
                 <span class="label fw-bold me-2">Notes:</span>
-                <div class="notes">{{ getUser.notes }}</div>
+                <div class="notes">{{ !getUser.notes ? 'No notes available.' : getUser.notes }}</div>
             </div>
         </div>
 
