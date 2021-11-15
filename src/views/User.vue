@@ -80,3 +80,12 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+input {
+    border: 0;
+}
+input:focus-visible {
+    outline: 0;
+}
+</style>
