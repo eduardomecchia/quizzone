@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="card-header">
-            <div class="uuid">Utente numero {{ getUser.id }}</div>
+            <div class="uuid">User #{{ getUser.id }}</div>
         </div>
 
         <div class="card-body">

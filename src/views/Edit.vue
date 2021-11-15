@@ -56,7 +56,7 @@ export default {
             this.user.city = this.$refs.city.value;
             this.user.notes = this.$refs.notes.value;
 
-            axios.put(`http://localhost:3000/users/${this.$route.params.id}`, this.user)
+            axios.put(`${this.$store.state.url}/${this.$route.params.id}`, this.user)
             .then(response => console.log(response))
             .catch(error => console.log(error));
 
@@ -66,7 +66,7 @@ export default {
 
     created() {
         if (this.getUser == undefined) {
-            axios.get(`http://localhost:3000/users/${this.$route.params.id}`)
+            axios.get(`${this.$store.state.url}/${this.$route.params.id}`)
             .then(response => {
                 this.user = response.data;
             })

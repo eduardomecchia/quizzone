@@ -21,4 +21,8 @@ export default {
     margin: 0;
     padding: 0;
   }
+
+  main {
+    padding-bottom: 35px;
+  }
 </style>

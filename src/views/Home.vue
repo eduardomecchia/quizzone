@@ -23,7 +23,7 @@ export default {
   },
 
   mounted() {
-    axios.get('http://localhost:3000/users')
+    axios.get(this.$store.state.url)
       .then(response => {
         this.$store.dispatch('loadUsers', response.data);
       })

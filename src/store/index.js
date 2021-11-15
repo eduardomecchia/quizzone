@@ -5,7 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    users: []
+    users: [],
+    url: 'http://localhost:3000/users'
   },
   mutations: {
     setUsers (state, users) {

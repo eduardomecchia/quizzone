@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Marioa",
-      "surname": "Rossiagggggg",
-      "email": "mario.rossi@gmail.comsdd",
-      "city": "Milano66",
-      "notes": "asaasas"
-    },
-    {
       "id": 2,
       "name": "Maria",
       "surname": "Rossi",
@@ -39,6 +31,22 @@
       "email": "gaia.cardi@gmail.com",
       "city": "Roma",
       "notes": ""
+    },
+    {
+      "id": 6,
+      "name": "eduard",
+      "surname": "omecchia",
+      "email": "eduardo@gmail.com",
+      "city": "mosso",
+      "notes": "mosos"
+    },
+    {
+      "id": 7,
+      "name": "eduardino",
+      "surname": "r6c0",
+      "email": "eduardo@gmail.tek",
+      "city": "palestrina",
+      "notes": "notes"
     }
   ]
 }

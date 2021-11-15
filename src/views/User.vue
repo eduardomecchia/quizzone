@@ -54,7 +54,7 @@ export default {
 
     methods: {
         deleteUser() {
-             axios.delete(`http://localhost:3000/users/${this.$route.params.id}`)
+             axios.delete(`${this.$store.state.url}/${this.$route.params.id}`)
             .then(response => console.log(response))
             .catch(error => console.log(error));
 
@@ -64,7 +64,7 @@ export default {
 
     created() {
         if (this.getUser == undefined) {
-            axios.get(`http://localhost:3000/users/${this.$route.params.id}`)
+            axios.get(`${this.$store.state.url}/${this.$route.params.id}`)
             .then(response => {
                 this.user = response.data;
             })
