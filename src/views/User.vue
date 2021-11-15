@@ -1,10 +1,35 @@
 <template>
     <main class="user">
-        <div class="name">{{ getUser != undefined ? getUser.name : user.name }}</div>
-        <div class="surname">{{ getUser != undefined ? getUser.surname : user.surname }}</div>
-        <div class="email">{{ getUser != undefined ? getUser.email : user.email }}</div>
-        <div class="city">{{ getUser != undefined ? getUser.city : user.city }}</div>
-        <div class="notes">{{ getUser != undefined ? getUser.notes : user.notes }}</div>
+        <div class="container">
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6">
+                    <form action="" class="d-flex justify-content-center flex-column">
+                        <label for="name"></label>
+                        <input readonly type="text" id="name" name="name" :value="getUser != undefined ? getUser.name : user.name">
+
+                        <label for="surname"></label>
+                        <input readonly type="text" id="surname" name="surname" :value="getUser != undefined ? getUser.surname : user.surname">
+
+                        <label for="email"></label>
+                        <input readonly type="text"  id="email" name="email" :value="getUser != undefined ? getUser.email : user.email">
+
+                        <label for="city"></label>
+                        <input readonly type="text" id="city" name="city" :value="getUser != undefined ? getUser.city : user.city">
+
+                        <label for="notes"></label>
+                        <input readonly type="text" id="notes" name="notes" :value="getUser != undefined ? getUser.notes : user.notes">
+
+                        <router-link :to="{ name: 'Edit', params: { id: $route.params.id } }" class="btn btn-info">
+                            <div>Edit</div>
+                        </router-link>
+
+                        <router-link :to="{ name: 'User', params: { id: $route.params.id } }" class="btn btn-danger">
+                            <div>Delete</div>
+                        </router-link>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 

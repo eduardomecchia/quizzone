@@ -12,13 +12,7 @@
             <div class="notes">{{ getUser.notes }}</div>
         </div>
 
-        <!-- <router-link :to="{ name: 'edit', params: { id: getUser.id } }" class="btn btn-primary">
-            <i class="fas fa-edit"></i>
-            <div>Edit</div>
-        </router-link> -->
-
         <router-link :to="{ name: 'User', params: { id: getUser.id } }" class="btn btn-primary">
-            <i class="fas fa-info-circle"></i>
             <div>Details</div>
         </router-link>
     </div>
