@@ -13,7 +13,7 @@
                         <input ref="surname" type="text" id="surname" name="surname">
 
                         <label class="mt-3" for="email">E-mail:</label>
-                        <input ref="email" type="text"  id="email" name="email">
+                        <input ref="email" type="email"  id="email" name="email">
 
                         <label class="mt-3" for="city">City:</label>
                         <input ref="city" type="text" id="city" name="city">
@@ -58,7 +58,7 @@ export default {
 
             axios.post(this.$store.state.url, this.user)
             .then(response => console.log(response))
-            .catch(error => console.log(error));
+            .catch(error => console.error(error));
 
             this.$router.push('/');
         }

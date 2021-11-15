@@ -1,9 +1,9 @@
 {
-  "name": "quizzone",
-  "version": "0.1.0",
+  "name": "users-crud",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "json-server --watch src/anagrafica.json & vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

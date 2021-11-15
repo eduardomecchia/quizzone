@@ -13,7 +13,7 @@
                         <input readonly type="text" id="surname" name="surname" :value="getUser != undefined ? getUser.surname : user.surname">
 
                         <label class="mt-3" for="email">E-mail:</label>
-                        <input readonly type="text"  id="email" name="email" :value="getUser != undefined ? getUser.email : user.email">
+                        <input readonly type="email"  id="email" name="email" :value="getUser != undefined ? getUser.email : user.email">
 
                         <label class="mt-3" for="city">City:</label>
                         <input readonly type="text" id="city" name="city" :value="getUser != undefined ? getUser.city : user.city">
@@ -56,7 +56,7 @@ export default {
         deleteUser() {
              axios.delete(`${this.$store.state.url}/${this.$route.params.id}`)
             .then(response => console.log(response))
-            .catch(error => console.log(error));
+            .catch(error => console.error(error));
 
             this.$router.push('/');
         }
@@ -68,13 +68,12 @@ export default {
             .then(response => {
                 this.user = response.data;
             })
-            .catch(error => console.log(error));
+            .catch(error => console.error(error));
         }
     },
 
     computed: {
         getUser() {
-            console.log(this.$store.state.users[this.$route.params.id - 1]);
             return this.$store.state.users[this.$route.params.id - 1];
         }
     }

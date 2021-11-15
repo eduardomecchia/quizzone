@@ -13,7 +13,7 @@
                         <input type="text" ref="surname" id="surname" name="surname" :value="getUser != undefined ? getUser.surname : user.surname">
 
                         <label class="mt-3" for="email">E-mail:</label>
-                        <input type="text" ref="email" id="email" name="email" :value="getUser != undefined ? getUser.email : user.email">
+                        <input type="email" ref="email" id="email" name="email" :value="getUser != undefined ? getUser.email : user.email">
 
                         <label class="mt-3" for="city">City:</label>
                         <input type="text" ref="city" id="city" name="city" :value="getUser != undefined ? getUser.city : user.city">
@@ -58,7 +58,7 @@ export default {
 
             axios.put(`${this.$store.state.url}/${this.$route.params.id}`, this.user)
             .then(response => console.log(response))
-            .catch(error => console.log(error));
+            .catch(error => console.error(error));
 
             this.$router.push('/');
         }
@@ -70,13 +70,12 @@ export default {
             .then(response => {
                 this.user = response.data;
             })
-            .catch(error => console.log(error));
+            .catch(error => console.error(error));
         }
     },
 
     computed: {
         getUser() {
-            console.log(this.$store.state.users[this.$route.params.id - 1]);
             return this.$store.state.users[this.$route.params.id - 1];
         }
     }

@@ -30,7 +30,7 @@ export default {
         this.$store.dispatch('loadUsers', response.data);
       })
       .catch(error => {
-        console.log(error);
+        console.error(error);
       })
   },
 
