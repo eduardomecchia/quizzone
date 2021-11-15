@@ -63,6 +63,10 @@ export default {
     },
 
     created() {
+        if (this.$route.params.id > this.$store.state.users.length) {
+            this.$router.push('/');
+        }
+
         if (this.getUser == undefined) {
             axios.get(`${this.$store.state.url}/${this.$route.params.id}`)
             .then(response => {
