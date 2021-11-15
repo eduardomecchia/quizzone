@@ -4,22 +4,22 @@
             <div class="row justify-content-center mt-4">
                 <div class="col-md-6">
                     <form action="POST" class="d-flex justify-content-center flex-column">
-                        <label for="name"></label>
+                        <label for="name">Name:</label>
                         <input type="text" ref="name" id="name" name="name" :value="getUser != undefined ? getUser.name : user.name">
 
-                        <label for="surname"></label>
+                        <label class="mt-3" for="surname">Surname:</label>
                         <input type="text" ref="surname" id="surname" name="surname" :value="getUser != undefined ? getUser.surname : user.surname">
 
-                        <label for="email"></label>
+                        <label class="mt-3" for="email">E-mail:</label>
                         <input type="text" ref="email" id="email" name="email" :value="getUser != undefined ? getUser.email : user.email">
 
-                        <label for="city"></label>
+                        <label class="mt-3" for="city">City:</label>
                         <input type="text" ref="city" id="city" name="city" :value="getUser != undefined ? getUser.city : user.city">
 
-                        <label for="notes"></label>
+                        <label class="mt-3" for="notes">Notes:</label>
                         <input type="text" ref="notes" id="notes" name="notes" :value="getUser != undefined ? getUser.notes : user.notes">
 
-                        <button class="btn btn-primary" type="submit" @click.prevent="editUser()">Submit</button>
+                        <button class="mt-3 btn btn-primary" type="submit" @click.prevent="editUser()">Submit</button>
                     </form>
                 </div>
             </div>
