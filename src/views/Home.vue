@@ -1,6 +1,12 @@
 <template>
   <main class="home">
-    <Card v-for="user in users" :key="user.id"></Card>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <Card class="mt-4" v-for="user in users" :key="user.id"></Card>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
