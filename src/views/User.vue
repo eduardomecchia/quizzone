@@ -1,5 +1,7 @@
 <template>
     <main class="user">
+        <h1 class="text-center my-2">Details for user #{{ $route.params.id }}</h1>
+
         <div class="container">
             <div class="row justify-content-center mt-4">
                 <div class="col-md-6">
