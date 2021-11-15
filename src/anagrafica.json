@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mario",
+      "surname": "Rossi",
+      "email": "mario.rossi@gmail.com",
+      "city": "Napoli",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "name": "Maria",
+      "surname": "Rossi",
+      "email": "maria.rossi@gmail.com",
+      "city": "Roma",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "name": "Sara",
+      "surname": "Russo",
+      "email": "sara.russo@gmail.com",
+      "city": "Bergamo",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "name": "Eduardo",
+      "surname": "Mecchia",
+      "email": "eduardo.mecchia@gmail.com",
+      "city": "Palestrina",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "name": "Gaia",
+      "surname": "Cardi",
+      "email": "gaia.cardi@gmail.com",
+      "city": "Roma",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "name": "Giulia",
+      "surname": "Cardi",
+      "email": "giulia.cardi@gmail.com",
+      "city": "Roma",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "name": "Laura",
+      "surname": "Cardi",
+      "email": "laura.cardi@gmail.com",
+      "city": "Roma",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "name": "Luca",
+      "surname": "Lulli",
+      "email": "luca.lulli@gmail.com",
+      "city": "Londra",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "name": "Andrea",
+      "surname": "Lulli",
+      "email": "andrea.lulli@gmail.com",
+      "city": "Zagarolo",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "name": "Alberto",
+      "surname": "Lulli",
+      "email": "alberto.lulli@gmail.com",
+      "city": "Palestrina",
+      "notes": ""
+    }
+  ]
+}
