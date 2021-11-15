@@ -23,9 +23,7 @@
                             <div>Edit</div>
                         </router-link>
 
-                        <router-link :to="{ name: 'User', params: { id: $route.params.id } }" class="btn btn-danger">
-                            <div>Delete</div>
-                        </router-link>
+                        <button class="btn btn-danger" @click="deleteUser()">Delete</button>
                     </form>
                 </div>
             </div>
@@ -49,6 +47,16 @@ export default {
                 city: '',
                 notes: ''
             }
+        }
+    },
+
+    methods: {
+        deleteUser() {
+             axios.delete(`http://localhost:3000/users/${this.$route.params.id}`)
+            .then(response => console.log(response))
+            .catch(error => console.log(error));
+
+            this.$router.push('/');
         }
     },
 

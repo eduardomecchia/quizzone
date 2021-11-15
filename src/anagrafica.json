@@ -3,9 +3,9 @@
     {
       "id": 1,
       "name": "Marioa",
-      "surname": "Rossia",
-      "email": "mario.rossi@gmail.com",
-      "city": "Milano",
+      "surname": "Rossiagggggg",
+      "email": "mario.rossi@gmail.comsdd",
+      "city": "Milano66",
       "notes": "asaasas"
     },
     {
@@ -38,14 +38,6 @@
       "surname": "Cardi",
       "email": "gaia.cardi@gmail.com",
       "city": "Roma",
-      "notes": ""
-    },
-    {
-      "id": 6,
-      "name": "Ilaria",
-      "surname": "Salvo",
-      "email": "ilaria.salvo@gmail.com",
-      "city": "Torino",
       "notes": ""
     }
   ]

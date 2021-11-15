@@ -56,9 +56,9 @@ export default {
 
             axios.put(`http://localhost:3000/users/${this.$route.params.id}`, this.user)
             .then(response => console.log(response))
-            .catch(error => console.log(error))
+            .catch(error => console.log(error));
 
-            this.$router.push('/')
+            this.$router.push('/');
         }
     },
 
